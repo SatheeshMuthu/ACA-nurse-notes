@@ -1,0 +1,67 @@
+[
+  {
+    "id": "note-1",
+    "patient_id": "patient-1001",
+    "created_at": "2025-09-01T08:15:00",
+    "note_date": "2025-09-01",
+    "author_id": "nurse-a",
+    "text": "Patient reported mild chest pain after walking. Vitals stable. Advised rest and monitoring.",
+    "status": "new",
+    "action_items": [
+      "Monitor vitals every 30 minutes for 2 hours.",
+      "If chest pain persists, escalate to physician and order ECG."
+    ]
+  },
+  {
+    "id": "note-2",
+    "patient_id": "patient-1002",
+    "created_at": "2025-09-01T09:30:00",
+    "note_date": "2025-09-01",
+    "author_id": "nurse-b",
+    "text": "Post-op patient showing slight fever (38.1C). Given paracetamol per orders. Will recheck in 2 hours.",
+    "status": "new",
+    "action_items": [
+      "Administer paracetamol 500 mg as ordered.",
+      "Recheck temperature in 2 hours and document response."
+    ]
+  },
+  {
+    "id": "note-3",
+    "patient_id": "patient-1003",
+    "created_at": "2025-09-02T07:50:00",
+    "note_date": "2025-09-02",
+    "author_id": "nurse-c",
+    "text": "Patient with diabetes checking blood glucose: 220 mg/dL. Insulin sliding scale given as per protocol.",
+    "status": "new",
+    "action_items": [
+      "Record blood glucose every 4 hours.",
+      "Follow insulin sliding scale; notify physician if > 300 mg/dL."
+    ]
+  },
+  {
+    "id": "note-4",
+    "patient_id": "patient-1004",
+    "created_at": "2025-09-02T11:05:00",
+    "note_date": "2025-09-02",
+    "author_id": "nurse-a",
+    "text": "Patient reports dizziness when standing. Orthostatic BP measured; slight drop observed. Advised slow position changes.",
+    "status": "new",
+    "action_items": [
+      "Advise patient to stand slowly and call for assistance when needed.",
+      "Document orthostatic BP measurements and report if symptomatic."
+    ]
+  },
+  {
+    "id": "note-5",
+    "patient_id": "patient-1001",
+    "created_at": "2025-09-03T10:20:00",
+    "note_date": "2025-09-03",
+    "author_id": "nurse-b",
+    "text": "Wound dressing changed; no signs of infection. Patient tolerating procedure well.",
+    "status": "new",
+    "action_items": [
+      "Continue daily wound dressing changes.",
+      "Observe for erythema, drainage, or fever and notify clinician if present."
+    ]
+  }
+]
